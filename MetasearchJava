@@ -10,15 +10,22 @@
             let googleURL = `https://www.google.com/search?q=${query}`;
             let bingURL = `https://www.bing.com/search?q=${query}`;
             let duckduckgoURL = `https://duckduckgo.com/?q=${query}`;
-            
+            let baiduURL = 'https://www.baidu.com/s?&wd=${query}';
+            let yandexURL = 'https://yandex.com/search/?text=${query}';
+
+    
+
+
             window.open(googleURL, '_blank');
             window.open(bingURL, '_blank');
             window.open(duckduckgoURL, '_blank');
+            window.open(baiduURL, '_blank');
+            window.open(yandexURL, '_blank');
         }
     </script>
 </head>
 <body>
-    <h1>MetaSearch</h1>
+    <h1>MetaSearcher</h1>
     <input type="text" id="query" placeholder="Enter your search query">
     <button onclick="metaSearch()">Search</button>
 </body>
