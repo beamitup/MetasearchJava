@@ -10,8 +10,8 @@
             let googleURL = `https://www.google.com/search?q=${query}`;
             let bingURL = `https://www.bing.com/search?q=${query}`;
             let duckduckgoURL = `https://duckduckgo.com/?q=${query}`;
-            let baiduURL = 'https://www.baidu.com/s?wd=${query}';
-            let yandexURL = 'https://yandex.com/search/?text=${query}';
+            let baiduURL = `https://www.baidu.com/s?wd=${query}`;
+            let yandexURL = `https://yandex.com/search/?text=${query}`;
 
     
 
