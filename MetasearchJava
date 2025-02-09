@@ -12,7 +12,7 @@
             let duckduckgoURL = `https://duckduckgo.com/?q=${query}`;
             let baiduURL = `https://www.baidu.com/s?wd=${query}`;
             let yandexURL = `https://yandex.com/search/?text=${query}`;
-
+            let ecosiaURL = `https://www.ecosia.org/search?q=${query}`;
     
 
 
@@ -21,6 +21,7 @@
             window.open(duckduckgoURL, '_blank');
             window.open(baiduURL, '_blank');
             window.open(yandexURL, '_blank');
+            window.open(ecosiaURL, '_blank');
         }
     </script>
 </head>
