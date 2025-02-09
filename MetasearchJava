@@ -13,7 +13,8 @@
             let baiduURL = `https://www.baidu.com/s?wd=${query}`;
             let yandexURL = `https://yandex.com/search/?text=${query}`;
             let ecosiaURL = `https://www.ecosia.org/search?q=${query}`;
-    
+            let yahooURL =
+`https://search.yahoo.com/search?p=${query}`;
 
 
             window.open(googleURL, '_blank');
@@ -22,6 +23,7 @@
             window.open(baiduURL, '_blank');
             window.open(yandexURL, '_blank');
             window.open(ecosiaURL, '_blank');
+            window.open(yahooURL, '_blank');
         }
     </script>
 </head>
