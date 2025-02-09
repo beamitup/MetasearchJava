@@ -15,6 +15,8 @@
             let ecosiaURL = `https://www.ecosia.org/search?q=${query}`;
             let yahooURL =
 `https://search.yahoo.com/search?p=${query}`;
+            let bingURL =
+`https://www.bing.com/search?q=${query}`;
 
 
             window.open(googleURL, '_blank');
@@ -24,6 +26,7 @@
             window.open(yandexURL, '_blank');
             window.open(ecosiaURL, '_blank');
             window.open(yahooURL, '_blank');
+            window.open(bingURL, '_blank');
         }
     </script>
 </head>
